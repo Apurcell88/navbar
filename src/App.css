@@ -90,3 +90,38 @@ table {
 	font-weight: 600;
 	align-self: flex-start;
 }
+
+/* --------------- POPUP STYLES --------------- */
+.popup--container {
+	background-color: white;
+	width: 30vw;
+	border-radius: 20px;
+	position: absolute;
+	left: 480px;
+	display: flex;
+	/* align-items: center; */
+	gap: 20px;
+}
+
+.popup--product {
+	padding: 0 1rem;
+	margin: 1rem 0;
+}
+
+.popup--logo {
+	background-color: white;
+	position: relative;
+	left: 30px;
+}
+
+.popup--product {
+	background-color: white;
+}
+
+.popup--title {
+	background-color: white;
+}
+
+.popup--description {
+	background-color: white;
+}

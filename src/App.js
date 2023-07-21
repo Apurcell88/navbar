@@ -2,8 +2,11 @@ import './App.css';
 import { useState } from 'react';
 import Nav from './components/Nav';
 import Main from './components/Main';
+import Popup from './components/Popup';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { ReactComponent as Netflix } from 'C:/Users/apurc/Documents/codewell/navbar/src/Assets/Netflix Logo.svg';
+
+import { ReactComponent as Menu } from 'C:/Users/apurc/Documents/codewell/navbar/src/Assets/Capterra Logo.svg';
 
 function App() {
   // STATE MANAGEMENT
@@ -11,7 +14,11 @@ function App() {
 
   return (
     <div className="App">
-      <Nav />
+      <Nav
+        displayPopup={displayPopup}
+        setDisplayPopup={setDisplayPopup} 
+      />
+      {displayPopup ? <Popup /> : ''}
       <Main />
     </div>
   );
