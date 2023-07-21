@@ -47,6 +47,46 @@ table {
 	border-spacing: 0;
 }
 
+/* --------------- GENERAL STYLES --------------- */
 * {
   box-sizing: border-box;
+  background-color: #f8edf4;
+}
+
+/* --------------- NAV STYLES --------------- */
+.nav--container {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 2.5rem;
+}
+
+.nav--links-container {
+	display: flex;
+	gap: 30px;
+}
+
+.nav--link {
+	transition: font-weight 0.5s, font-size 0.5s;
+}
+
+.nav--link:hover {
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+
+
+.nav--sign-in-container {
+	display: flex;
+	gap: 30px;
+}
+
+.nav--try-free-btn {
+	width: 8.5rem;
+	height: 3rem;
+	border-radius: 5px;
+	background-color: rgb(2, 59, 2);
+	color: white;
+	font-size: 0.9rem;
+	font-weight: 600;
+	align-self: flex-start;
 }
