@@ -157,3 +157,19 @@ span {
 .landing--hero-img {
 	width: 60%;
 }
+
+/* --------------- FOOTER STYLES --------------- */
+footer {
+	margin-top: 5rem;
+}
+
+.footer--text-container {
+	display: flex;
+	justify-content: center;
+}
+
+.footer--companies-container {
+	display: flex;
+	justify-content: center;
+	gap: 45px;
+}

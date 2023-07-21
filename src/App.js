@@ -3,10 +3,9 @@ import { useState } from 'react';
 import Nav from './components/Nav';
 import Popup from './components/Popup';
 import LandingPage from './components/LandingPage';
+import Footer from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import { ReactComponent as Menu } from 'C:/Users/apurc/Documents/codewell/navbar/src/Assets/Capterra Logo.svg';
 
 function App() {
   // STATE MANAGEMENT
@@ -20,6 +19,7 @@ function App() {
       />
       {displayPopup ? <Popup /> : ''}
       <LandingPage />
+      <Footer />
     </div>
   );
 }
