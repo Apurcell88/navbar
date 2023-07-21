@@ -29,7 +29,7 @@ const Nav = (props) => {
       </ul>
       <article className="nav--sign-in-container">
         <p>Sign in</p>
-        <button className="nav--try-free-btn">Try for free</button>
+        <button className="try-free-btn">Try for free</button>
       </article>
     </section>
   );

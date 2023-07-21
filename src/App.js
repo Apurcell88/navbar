@@ -1,8 +1,8 @@
 import './App.css';
 import { useState } from 'react';
 import Nav from './components/Nav';
-import Main from './components/Main';
 import Popup from './components/Popup';
+import LandingPage from './components/LandingPage';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,7 +19,7 @@ function App() {
         setDisplayPopup={setDisplayPopup} 
       />
       {displayPopup ? <Popup /> : ''}
-      <Main />
+      <LandingPage />
     </div>
   );
 }
