@@ -177,9 +177,21 @@ span {
 	width: 60%;
 }
 
+.landing--try-free-btn {
+	width: 8.5rem;
+	height: 3rem;
+	border-radius: 5px;
+	background-color: rgb(2, 59, 2);
+	color: white;
+	font-size: 0.9rem;
+	font-weight: 600;
+	align-self: flex-start;
+}
+
 /* --------------- FOOTER STYLES --------------- */
 footer {
 	margin-top: 5rem;
+	justify-self: flex-end;
 }
 
 .footer--text-container {
@@ -191,4 +203,60 @@ footer {
 	display: flex;
 	justify-content: center;
 	gap: 45px;
+}
+
+/* --------------- MEDIA QUERIES --------------- */
+
+/* --------------- TABLETS --------------- */
+@media screen and (max-width: 920px) {
+	/* --------------- NAV STYLES --------------- */
+	.try-free-btn {
+		display: none;
+	}
+
+	/* --------------- POPUP STYLES --------------- */
+	.popup--container {
+		width: 50vw;
+		left: 120px;
+	}
+
+	/* --------------- LANDING STYLES --------------- */
+	.landing--container {
+		justify-content: space-evenly;
+	}
+	
+	.landing--info {
+		margin-left: 1.5rem;
+		width: 60%;
+	}
+	
+	.landing--hero-img {
+		width: 65%;
+		float: right;
+		margin-right: 2rem;
+	}
+
+	/* --------------- FOOTER STYLES --------------- */
+	footer {
+		margin-top: 0;
+		display: flex;
+		flex-direction: column;
+		height: 20vh;
+		justify-content: flex-end;
+	}
+	
+	.footer--text-container {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.footer--companies-container {
+		display: flex;
+		justify-content: center;
+		gap: 45px;
+	}
+
+	.footer--company {
+		width: 9rem;
+	}
 }

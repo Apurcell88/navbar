@@ -10,10 +10,10 @@ const Footer = () => {
         <p className="footer--text">Trusted by 3+ million people at companies like</p>
       </div>
       <aside className="footer--companies-container">
-        <Netflix />
-        <Shopify />
-        <Spotify />
-        <Walmart />
+        <Netflix className='footer--company' />
+        <Shopify className='footer--company' />
+        <Spotify className='footer--company' />
+        <Walmart className='footer--company' />
       </aside>
     </footer>
   );
