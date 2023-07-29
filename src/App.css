@@ -266,6 +266,9 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+	.App {
+		padding-right: 0.5rem;
+	}
 	/* --------------- NAV STYLES --------------- */
 	.nav--links-container {
 		flex-direction: column;
