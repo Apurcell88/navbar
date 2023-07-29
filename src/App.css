@@ -81,6 +81,10 @@ table {
 	gap: 30px;
 }
 
+.nav--hamburger {
+	display: none;
+}
+
 .try-free-btn {
 	width: 8.5rem;
 	height: 3rem;
@@ -258,5 +262,64 @@ footer {
 
 	.footer--company {
 		width: 9rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	/* --------------- NAV STYLES --------------- */
+	.nav--links-container {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.nav--sign-in-container {
+		display: none;
+	}
+
+	/* --------------- POPUP STYLES --------------- */
+	.popup--container {
+		width: 100vw;
+		position: unset;
+		display: flex;
+		gap: 0px;
+	}
+
+	/* --------------- LANDING STYLES --------------- */
+	.landing--container {
+		display: flex;
+		width: 100vw;
+		justify-content: flex-start;
+		margin-top: 7rem;
+	}
+
+	.landing--info {
+		display: flex;
+		flex-direction: column;
+		width: 40%;
+		gap: 10px;
+	}
+
+	.landing--title {
+		font-size: 4rem;
+		font-weight: bold;
+	}
+
+	.landing--hero-img-container {
+		display: none;
+	}
+
+	.landing--hero-img {
+		width: 60%;
+	}
+
+	.landing--try-free-btn {
+		width: 8.5rem;
+		height: 3rem;
+		border-radius: 5px;
+		background-color: rgb(2, 59, 2);
+		color: white;
+		font-size: 0.9rem;
+		font-weight: 600;
+		align-self: flex-start;
 	}
 }
