@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/navbar/static/css/main.8499eb18.css",
+    "main.css": "/navbar/static/css/main.4583eb8e.css",
     "main.js": "/navbar/static/js/main.0c23989e.js",
     "static/media/Hero Image.png": "/navbar/static/media/Hero Image.06223ac206496e01e5e6.png",
     "static/media/AlternativeTo Logo.svg": "/navbar/static/media/AlternativeTo Logo.7f874c630a1428352cb9cd4e56b1db63.svg",
@@ -14,11 +14,11 @@
     "static/media/Fiber_Icon.svg": "/navbar/static/media/Fiber_Icon.406edfc9038a183a0e88b7a3d57fadf5.svg",
     "index.html": "/navbar/index.html",
     "static/media/Capterra Logo.svg": "/navbar/static/media/Capterra Logo.9a6e352cdf0ba71369592254b14b4c3a.svg",
-    "main.8499eb18.css.map": "/navbar/static/css/main.8499eb18.css.map",
+    "main.4583eb8e.css.map": "/navbar/static/css/main.4583eb8e.css.map",
     "main.0c23989e.js.map": "/navbar/static/js/main.0c23989e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8499eb18.css",
+    "static/css/main.4583eb8e.css",
     "static/js/main.0c23989e.js"
   ]
 }
